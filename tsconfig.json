@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2020",
+    "sourceMap": true,
+    "outDir": "./dist/adventJs-2023/challenges",
+    "rootDir": "./adventJs-2023/challenges/",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": [
+    "adventJs-2023/challenges/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
