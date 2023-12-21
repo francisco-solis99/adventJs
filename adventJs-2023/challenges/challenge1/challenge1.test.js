@@ -1,7 +1,6 @@
 import { expect, test, describe, expectTypeOf } from 'vitest'
 import { findFirstRepeated } from './challenge1'
 
-
 describe('Find the first gift repeated', () => {
   test('Test 1', () => {
     expectTypeOf(findFirstRepeated).returns.toEqualTypeOf(-1)
