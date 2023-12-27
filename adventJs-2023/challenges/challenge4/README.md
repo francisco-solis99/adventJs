@@ -23,7 +23,7 @@ console.log(c) // santaclaus
 // 2. Reverse the remaining one -> santaclaus
 ```
 
-> [!Notas: ]
+> [!Notes: ]
 The input strings will always be well formed with parentheses that match correctly, you do not need to validate them.
 There should not be any parentheses left in the final message.
 The maximum nesting level is 2.

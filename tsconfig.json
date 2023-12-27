@@ -9,6 +9,10 @@
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "ES2021.String"
+    ]
+
   },
   "include": [
     "adventJs-2023/challenges/**/*"
