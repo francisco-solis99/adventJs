@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "create": "node cli/challenges.js",
     "test": "vitest",
     "test:1": "pnpm run build && node ./dist/adventJs-2023/challenges/challenge1/challenge1.js",
     "build": "tsc"
