@@ -1,6 +1,6 @@
 import * as clack from '@clack/prompts'
-import { setTimeout } from 'node:timers/promises'
 import color from 'picocolors'
+import { setTimeout } from 'node:timers/promises'
 import { createChallenge } from './utils.js'
 
 /*
@@ -44,7 +44,7 @@ async function main () {
   if (challenge.create) {
     const spinner = clack.spinner()
     spinner.start('Creating your challenge files...')
-    // await setTimeout(2500)
+    await setTimeout(2500)
     await createChallenge(challenge.name, spinner)
     spinner.stop('Challenge created sucessfully ✅')
 
