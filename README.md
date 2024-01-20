@@ -56,5 +56,5 @@ pnpm run test
 
 ## ©️ Copyrigth
 
-© 2023 [jamerrq](https://github.com/jamerrq)
+© 2023 [franciscosolis](https://github.com/francisco-solis99)
 
