@@ -43,6 +43,20 @@ Para ejecutar todos los test de los challenges
 ```bash
 pnpm run test
 ```
+![Tests](image.png)
+
+
+## Crear un challenge 🚀
+Para crear un challenge usa el siguiente comando:
+```bash
+pnpm run create
+```
+
+Para ello se desarrollo un cli, usando clark y picocolors
+
+![Create challenge](image-2.png)
+
+
 
 ## Tools ⚙️
 
